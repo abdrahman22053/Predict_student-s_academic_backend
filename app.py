@@ -11,7 +11,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://student-ml-frontend.vercel.app/",  
+        "https://student-ml-frontend.vercel.app",  
     ],
     allow_credentials=True,
     allow_methods=["*"],
